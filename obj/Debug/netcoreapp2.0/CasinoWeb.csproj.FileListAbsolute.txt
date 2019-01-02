@@ -1,0 +1,24 @@
+C:\Users\Dorota\Documents\GitHub\CasinoWeb\CasinoWeb\obj\Debug\netcoreapp2.0\CasinoWeb.csprojAssemblyReference.cache
+C:\Users\Dorota\Documents\GitHub\CasinoWeb\CasinoWeb\obj\Debug\netcoreapp2.0\CasinoWeb.csproj.CoreCompileInputs.cache
+C:\Users\Dorota\Documents\GitHub\CasinoWeb\CasinoWeb\obj\Debug\netcoreapp2.0\CasinoWeb.AssemblyInfoInputs.cache
+C:\Users\Dorota\Documents\GitHub\CasinoWeb\CasinoWeb\obj\Debug\netcoreapp2.0\CasinoWeb.AssemblyInfo.cs
+C:\Users\Dorota\Documents\GitHub\CasinoWeb\CasinoWeb\bin\Debug\netcoreapp2.0\CasinoWeb.deps.json
+C:\Users\Dorota\Documents\GitHub\CasinoWeb\CasinoWeb\bin\Debug\netcoreapp2.0\CasinoWeb.runtimeconfig.json
+C:\Users\Dorota\Documents\GitHub\CasinoWeb\CasinoWeb\bin\Debug\netcoreapp2.0\CasinoWeb.runtimeconfig.dev.json
+C:\Users\Dorota\Documents\GitHub\CasinoWeb\CasinoWeb\bin\Debug\netcoreapp2.0\CasinoWeb.dll
+C:\Users\Dorota\Documents\GitHub\CasinoWeb\CasinoWeb\bin\Debug\netcoreapp2.0\CasinoWeb.pdb
+C:\Users\Dorota\Documents\GitHub\CasinoWeb\CasinoWeb\obj\Debug\netcoreapp2.0\CasinoWeb.dll
+C:\Users\Dorota\Documents\GitHub\CasinoWeb\CasinoWeb\obj\Debug\netcoreapp2.0\CasinoWeb.pdb
+C:\Users\Dorota\Documents\GitHub\CasinoWeb\CasinoWeb\bin\Debug\netcoreapp2.0\appsettings.xml
+D:\Visual Studio\GitHub\CasinoWeb\CasinoWeb\bin\Debug\netcoreapp2.0\appsettings.xml
+D:\Visual Studio\GitHub\CasinoWeb\CasinoWeb\bin\Debug\netcoreapp2.0\CasinoWeb.deps.json
+D:\Visual Studio\GitHub\CasinoWeb\CasinoWeb\bin\Debug\netcoreapp2.0\CasinoWeb.runtimeconfig.json
+D:\Visual Studio\GitHub\CasinoWeb\CasinoWeb\bin\Debug\netcoreapp2.0\CasinoWeb.runtimeconfig.dev.json
+D:\Visual Studio\GitHub\CasinoWeb\CasinoWeb\bin\Debug\netcoreapp2.0\CasinoWeb.dll
+D:\Visual Studio\GitHub\CasinoWeb\CasinoWeb\bin\Debug\netcoreapp2.0\CasinoWeb.pdb
+D:\Visual Studio\GitHub\CasinoWeb\CasinoWeb\obj\Debug\netcoreapp2.0\CasinoWeb.csprojAssemblyReference.cache
+D:\Visual Studio\GitHub\CasinoWeb\CasinoWeb\obj\Debug\netcoreapp2.0\CasinoWeb.csproj.CoreCompileInputs.cache
+D:\Visual Studio\GitHub\CasinoWeb\CasinoWeb\obj\Debug\netcoreapp2.0\CasinoWeb.AssemblyInfoInputs.cache
+D:\Visual Studio\GitHub\CasinoWeb\CasinoWeb\obj\Debug\netcoreapp2.0\CasinoWeb.AssemblyInfo.cs
+D:\Visual Studio\GitHub\CasinoWeb\CasinoWeb\obj\Debug\netcoreapp2.0\CasinoWeb.dll
+D:\Visual Studio\GitHub\CasinoWeb\CasinoWeb\obj\Debug\netcoreapp2.0\CasinoWeb.pdb

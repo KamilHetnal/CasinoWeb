@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <ConnectionStrings>
+    <DefaultConnection>Data Source=.\SQLEXPRESS;Initial Catalog=CasDb;Integrated Security=True</DefaultConnection>
+  </ConnectionStrings>
+</root>
