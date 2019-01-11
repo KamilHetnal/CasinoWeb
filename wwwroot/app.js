@@ -10,32 +10,24 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 })
 
-window.onload = function ()
-{
-    var bet = document.getElementById("bet").value;
-    var I2 = document.getElementById("I2");
-    var I3 = document.getElementById("I3");
-    var I4 = document.getElementById("I4");
-    var I5 = document.getElementById("I5");
-    var II2 = document.getElementById("II2");
-    var II3 = document.getElementById("II3");
-    var II4 = document.getElementById("II4");
-    var II5 = document.getElementById("II5");
-    var III2 = document.getElementById("III2");
-    var III3 = document.getElementById("III3");
-    var III4 = document.getElementById("III4");
-    var III5 = document.getElementById("III5");
-
-    I2.innerHTML = bet * 5;
-    I3.innerHTML = bet * 20;
-    I4.innerHTML = bet * 100;
-    I5.innerHTML = bet * 500;
-    II2.innerHTML = bet * 5;
-    II3.innerHTML = bet * 20;
-    II4.innerHTML = bet * 100;
-    II5.innerHTML = bet * 500;
-    III2.innerHTML = bet * 5;
-    III3.innerHTML = bet * 20;
-    III4.innerHTML = bet * 100;
-    III5.innerHTML = bet * 500;
+const onClickHandler = () => {
+    let bet = document.getElementById("bet").value;
+    let win2 = '<b>' + bet * 5 + '</b>'
+    let win3 = '<b>' + bet * 20 + '</b>'
+    let win4 = '<b>' + bet * 100 + '</b>'
+    let win5 = '<b>' + bet * 500 + '</b>'
+    document.getElementById("I2").innerHTML = win2;
+    document.getElementById("II2").innerHTML = win2;
+    document.getElementById("III2").innerHTML = win2;
+    document.getElementById("I3").innerHTML = win3;
+    document.getElementById("II3").innerHTML = win3;
+    document.getElementById("III3").innerHTML = win3;
+    document.getElementById("I4").innerHTML = win4;
+    document.getElementById("II4").innerHTML = win4;
+    document.getElementById("III4").innerHTML = win4;
+    document.getElementById("I5").innerHTML = win5;
+    document.getElementById("II5").innerHTML = win5;
+    document.getElementById("III5").innerHTML = win5;
 }
+document.addEventListener("DOMContentLoaded", onClickHandler);
+document.getElementById("bet").addEventListener('click', onClickHandler);
