@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace CasinoWeb
@@ -8,13 +9,13 @@ namespace CasinoWeb
 	public class Slot
 	{
 
-		public int GenerateRandomNo()
+        public int GenerateRandomNo()
 		{
 		    int min = 1;
 		    int max = 9;
 
             Random _rdm = new Random();
-			return _rdm.Next(min, max);
+            return _rdm.Next(min, max);
 		}
 	}
 }

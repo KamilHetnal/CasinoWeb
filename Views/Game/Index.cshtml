@@ -1,48 +1,48 @@
 ﻿@model CasinoWeb.Models.GameModel
 <div class="Machine">
-    <div id="Slot1" class="Rotator">
-        <div id="block">@Model.Tab1[0]</div>
-        <div id="block" class="tab2">@Model.Tab2[0]</div>
-        <div id="block">@Model.Tab3[0]</div>
+    <div id="tab1">
+        <div id="block" style="float: left"> @Model.Tab1[0] </div>
+        <div id="block" style="float: left"> @Model.Tab1[1] </div>
+        <div id="block" style="float: left"> @Model.Tab1[2] </div>
+        <div id="block" style="float: left"> @Model.Tab1[3] </div>
+        <div id="block" style="float: left"> @Model.Tab1[4] </div>
+        <div style="clear: both"></div>
     </div>
-    <div id="Slot2" class="Rotator">
-        <div id="block">@Model.Tab1[1]</div>
-        <div id="block" class="tab2">@Model.Tab2[1]</div>
-        <div id="block">@Model.Tab3[1]</div>
+
+    <div id="tab2">
+        <div id="block" style="float: left">@Model.Tab2[0] </div>
+        <div id="block" style="float: left">@Model.Tab2[1] </div>
+        <div id="block" style="float: left">@Model.Tab2[2] </div>
+        <div id="block" style="float: left">@Model.Tab2[3] </div>
+        <div id="block" style="float: left">@Model.Tab2[4] </div>
+        <div style="clear: both"></div>
     </div>
-    <div id="Slot3" class="Rotator">
-        <div id="block">@Model.Tab1[2]</div>
-        <div id="block" class="tab2">@Model.Tab2[2]</div>
-        <div id="block">@Model.Tab3[2]</div>
-    </div>
-    <div id="Slot4" class="Rotator">
-        <div id="block">@Model.Tab1[3]</div>
-        <div id="block" class="tab2">@Model.Tab2[3]</div>
-        <div id="block">@Model.Tab3[3]</div>
-    </div>
-    <div id="Slot5" class="Rotator">
-        <div id="block">@Model.Tab1[4]</div>
-        <div id="block" class="tab2">@Model.Tab2[4]</div>
-        <div id="block">@Model.Tab3[4]</div>
-    </div>
-    <div style="clear:both"></div>
-    <div id="scores">
-        <form method="post">
-            <input asp-for="Bet" id="bet" min="10" max="100" step="5" />
-            <input asp-for="Lines" id="lines" min="1" max="3" step="2" />
-            <input id="button" type="submit" value="Shuffle" />
-        </form>
-        <div>
-        </div>
-        <div id="scores">
-            <p id="credits">Credits: @Model.Credits</p>
-        </div>
-        <div id="scores">
-            <p id="total">Win: @Model.Total</p>
-        </div>
+
+    <div id="tab3">
+        <div id="block" style="float: left">@Model.Tab3[0] </div>
+        <div id="block" style="float: left">@Model.Tab3[1]</div>
+        <div id="block" style="float: left">@Model.Tab3[2]</div>
+        <div id="block" style="float: left">@Model.Tab3[3]</div>
+        <div id="block" style="float: left">@Model.Tab3[4]</div>
+        <div style="clear: both"></div>
     </div>
 </div>
-<div style="clear:both"></div>
+<div id="scores">
+    <form method="post">
+        <input asp-for="Bet" id="bet" min="10" max="100" step="5" />
+        <input asp-for="Lines" id="lines" min="1" max="3" step="2" />
+        <input id="button" type="submit" value="Shuffle" />
+    </form>
+    <div>
+    </div>
+    <div id="scores">
+        <p id="credits">Credits: @Model.Credits</p>
+    </div>
+    <div id="scores">
+        <p id="total">Win: @Model.Total</p>
+    </div>
+</div>
+
 <div class="Table">
     <div class="Rotator">-----<div>I</div><div>II</div><div>III</div></div>
     <div class="Rotator">x2<div id="I2">I</div><div id="II2">II</div><div id="III2">III</div></div>

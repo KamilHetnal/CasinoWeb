@@ -17,8 +17,8 @@ namespace CasinoWeb.Models
         [NotMapped] public int[] Tab1 { get; set; }
         [NotMapped] public int[] Tab2 { get; set; }
         [NotMapped] public int[] Tab3 { get; set; }
-        public int[] PriceInts= {
-            5,20,100,500
+        public int[] PriceInts = {
+            5,15,80,400
         };
 
         public int CountWin()
@@ -27,16 +27,16 @@ namespace CasinoWeb.Models
 
             if (Lines == 3)
             {
-                for (int i = 0; i < 5; i++)
+                for (int i = 0; i < 4; i++)
                 {
                     if (Tab1[0] == Tab1[i + 1])
-                        Total = Total + 1*PriceInts[i];
+                        Total = Total + 1 * PriceInts[i];
                     else
                     {
                         break;
                     }
                 }
-               for (int i = 0; i < 5; i++)
+                for (int i = 0; i < 4; i++)
                 {
                     if (Tab3[0] == Tab3[i + 1])
                         Total = Total + 1 * PriceInts[i];
@@ -47,7 +47,7 @@ namespace CasinoWeb.Models
                 }
             }
             if (Lines == 1 || Lines == 3)
-                for (int i = 0; i < 5; i++)
+                for (int i = 0; i < 4; i++)
                 {
                     if (Tab2[0] == Tab2[i + 1])
                         Total = Total + 1 * PriceInts[i];
@@ -62,5 +62,6 @@ namespace CasinoWeb.Models
             Credits += Total - Bet;
             return Credits;
         }
+
     }
 }
