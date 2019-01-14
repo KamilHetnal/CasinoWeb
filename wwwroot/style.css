@@ -2,43 +2,55 @@
     background-color:darkgoldenrod;
 }
 .Machine {
-    margin:auto;
+    margin: auto;
     width: 600px;
     height: 550px;
     background-image: url("images/puzzlecastle.png");
     background-repeat: no-repeat;
 }
-
 .Table {
-    font-size: 40px;
+    font-size: 35px;
     margin: auto;
     width: 600px;
-    height: 550px;
+    height: 200px;
     background-repeat: no-repeat;
 }
 
+#Rotator {
+    float: left;
+    margin: 5px;
+    width: 100px;
+    height: 200px;
 
-.tab1
-{
-    box-shadow: green;
+}
+
+.tab1 {
+    box-shadow: inset 0px 0px 50px 15px green;
 }
 
 .tab2 {
-    box-shadow: red;
+    box-shadow: inset 0px 0px 50px 15px red;
 }
 
 .tab3 {
-    box-shadow: blue;
+    box-shadow: inset 0px 0px 50px 15px blue;
 }
 
 #block {
     float: left;
-    margin-top: 35px;
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
     width: 100px;
     height: 120px;
 }
+.Scores {
+    margin: auto;
+    width: 900px;
+    height: 100px;
+}
 #scores {
-    float:left;
+    float: left;
+    font-size: 40px;
 }
 

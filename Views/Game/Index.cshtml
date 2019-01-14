@@ -1,20 +1,20 @@
 ﻿@model CasinoWeb.Models.GameModel
 <div class="Machine">
     <div id="tab1">
-        <div id="block" style="float: left"> @Model.Tab1[0] </div>
-        <div id="block" style="float: left"> @Model.Tab1[1] </div>
-        <div id="block" style="float: left"> @Model.Tab1[2] </div>
-        <div id="block" style="float: left"> @Model.Tab1[3] </div>
-        <div id="block" style="float: left"> @Model.Tab1[4] </div>
+        <div id="block">@Model.Tab1[0] </div>
+        <div id="block">@Model.Tab1[1] </div>
+        <div id="block">@Model.Tab1[2] </div>
+        <div id="block">@Model.Tab1[3] </div>
+        <div id="block">@Model.Tab1[4] </div>
         <div style="clear: both"></div>
     </div>
 
     <div id="tab2">
-        <div id="block" style="float: left">@Model.Tab2[0] </div>
-        <div id="block" style="float: left">@Model.Tab2[1] </div>
-        <div id="block" style="float: left">@Model.Tab2[2] </div>
-        <div id="block" style="float: left">@Model.Tab2[3] </div>
-        <div id="block" style="float: left">@Model.Tab2[4] </div>
+        <div id="block">@Model.Tab2[0] </div>
+        <div id="block">@Model.Tab2[1] </div>
+        <div id="block">@Model.Tab2[2] </div>
+        <div id="block">@Model.Tab2[3] </div>
+        <div id="block">@Model.Tab2[4] </div>
         <div style="clear: both"></div>
     </div>
 
@@ -27,27 +27,26 @@
         <div style="clear: both"></div>
     </div>
 </div>
-<div id="scores">
-    <form method="post">
+<div class="Scores">
+    <form method="post" id="scores">
         <input asp-for="Bet" id="bet" min="10" max="100" step="5" />
         <input asp-for="Lines" id="lines" min="1" max="3" step="2" />
         <input id="button" type="submit" value="Shuffle" />
     </form>
-    <div>
-    </div>
     <div id="scores">
         <p id="credits">Credits: @Model.Credits</p>
     </div>
     <div id="scores">
         <p id="total">Win: @Model.Total</p>
     </div>
+    <div style="clear: both"></div>
 </div>
 
 <div class="Table">
-    <div class="Rotator">-----<div>I</div><div>II</div><div>III</div></div>
-    <div class="Rotator">x2<div id="I2">I</div><div id="II2">II</div><div id="III2">III</div></div>
-    <div class="Rotator">x3<div id="I3">I</div><div id="II3">II</div><div id="III3">III</div></div>
-    <div class="Rotator">x4<div id="I4">I</div><div id="II4">II</div><div id="III4">III</div></div>
-    <div class="Rotator">x5<div id="I5">I</div><div id="II5">II</div><div id="III5">III</div></div>
+    <div id="Rotator">-----<div>Tier I</div><div>Tier II</div><div>Tier III</div></div>
+    <div id="Rotator">x2<div id="I2"></div><div id="II2"></div><div id="III2"></div></div>
+    <div id="Rotator">x3<div id="I3"></div><div id="II3"></div><div id="III3"></div></div>
+    <div id="Rotator">x4<div id="I4"></div><div id="II4"></div><div id="III4"></div></div>
+    <div id="Rotator">x5<div id="I5"></div><div id="II5"></div><div id="III5"></div></div>
     <div style="clear:both"></div>
 </div>

@@ -41,7 +41,6 @@ function removeClass() {
 function showOneLine() {
     var line = document.getElementById("lines").value;
     if (line == 1) {
-
         var tab2 = document.getElementById("tab2");
         setInterval(removeClass, 1000);
         tab2.classList.add("tab2");
